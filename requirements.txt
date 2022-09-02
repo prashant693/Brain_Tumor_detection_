@@ -4,4 +4,4 @@ pandas==0.25.2
 pickle4==0.0.1
 sklearn==0.0
 tensorflow == 2.8.0
-Keras == 2.8.1
+Keras == 2.8.0
