@@ -6,7 +6,6 @@ from keras.applications.vgg19 import preprocess_input as preprocess_input_1
 import os
 from PIL import Image  
 import shutil
-import numpy as np
 from tensorflow import keras
 
 # Keras
