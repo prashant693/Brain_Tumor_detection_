@@ -22,9 +22,9 @@ from gevent.pywsgi import WSGIServer
 app = Flask(__name__)
 
 
-MODEL_PATH_0 = "D:/Downloads/model_00.h5"
-MODEL_PATH_1 = "D:/Downloads/model_01.h5"
-MODEL_PATH_2 = "D:/Downloads/model_02.h5"
+MODEL_PATH_0 = "model_00.h5"
+MODEL_PATH_1 = "model_01.h5"
+MODEL_PATH_2 = "model_02.h5"
 
 
 model_0 = keras.models.load_model(MODEL_PATH_0)
